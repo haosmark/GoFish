@@ -1,0 +1,5 @@
+C:\Users\Denis\OneDrive\Programming\Headfirst C sharp\Ch8\GoFish\GoFish\bin\Debug\GoFish.exe.config
+C:\Users\Denis\OneDrive\Programming\Headfirst C sharp\Ch8\GoFish\GoFish\obj\Debug\GoFish.csprojResolveAssemblyReference.cache
+C:\Users\Denis\OneDrive\Programming\Headfirst C sharp\Ch8\GoFish\GoFish\obj\Debug\GoFish.Form1.resources
+C:\Users\Denis\OneDrive\Programming\Headfirst C sharp\Ch8\GoFish\GoFish\obj\Debug\GoFish.Properties.Resources.resources
+C:\Users\Denis\OneDrive\Programming\Headfirst C sharp\Ch8\GoFish\GoFish\obj\Debug\GoFish.csproj.GenerateResource.Cache
