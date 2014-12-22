@@ -34,6 +34,16 @@ namespace GoFish
             // this is where the game starts. This method's called only at the beginning of the game.
             // Shuffle the stock, deal five cards to each player, then use a foreach to call each
             // player's PullOutBooks() method.
+            stock.Shuffle();
+            foreach (Player player in players)
+            {
+                // deal 5 cards to the player
+                for (int i = 0; i < 5; i++)
+                {
+                    player.TakeCard(stock.Deal());
+                }
+                player.PullOutBooks();
+            }
         }
 
         public bool PlayOneRound(int selectedPlayerCard)
@@ -58,6 +68,12 @@ namespace GoFish
         {
             // return a long string that describes everyone's books by looking at the books dictionary
             // "Joe has a book of sixes. (line break) Ed has a book of Aces."
+            string description = "";
+            foreach (Values book in books.Keys)
+            {
+                description += books[book].Name + " has a book of " + Card.Plural(book) + Environment.NewLine;
+            }
+            return description;
         }
 
         public string GetWinnerName()
@@ -95,6 +111,7 @@ namespace GoFish
             return description;
         }
 
+        /*
         private void deal()
         {
             stock.Shuffle();
@@ -111,7 +128,6 @@ namespace GoFish
             }
         }
 
-        /*
         public bool PlayOneRound(int selectedPlayerCard)
         {
             Values cardToAskFor = players[0].Peek(selectedPlayerCard).Value;

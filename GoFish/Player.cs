@@ -50,7 +50,7 @@ namespace GoFish
 
         public void AskForACard(List<Player> players, int myIndex, Deck stock, Values value)
         {
-            // ask the other players for a value. First add a line to the textbox: "Joe asks if anyone has a Queen"
+            // Ask the other players for a value. First add a line to the textbox: "Joe asks if anyone has a Queen"
             // then go through the list of players that was passed in as a parameter and ask each player if
             // he has any of the value ( using his DoYouHaveAny() method ). He'll pass you a deck of cards - add them to my deck.
             // Keep track of how many cards were added. If there weren't any, you'll need to deal yourself a card from the stock
@@ -68,15 +68,9 @@ namespace GoFish
             return cards.GetCardNames();
         }
 
-        public Card Peek(int cardNumber)
-        {
-            return cards.Peek(cardNumber);
-        }
+        public Card Peek(int cardNumber) { return cards.Peek(cardNumber); }
 
-        public void SortHand()
-        {
-            cards.SortByValue();
-        }
+        public void SortHand() { cards.SortByValue(); }
 
         public IEnumerable<Values> PullOutBooks()
         {

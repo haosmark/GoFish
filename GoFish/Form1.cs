@@ -36,7 +36,7 @@ namespace GoFish
         private void updateForm()
         {
             listHand.Items.Clear();
-            foreach (String cardName in game.GetPlayerCardNames)
+            foreach (string cardName in game.GetPlayerCardNames)
             {
                 listHand.Items.Add(cardName);
             }

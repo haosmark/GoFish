@@ -3,3 +3,4 @@ C:\Users\Denis\OneDrive\Programming\Headfirst C sharp\Ch8\GoFish\GoFish\obj\Debu
 C:\Users\Denis\OneDrive\Programming\Headfirst C sharp\Ch8\GoFish\GoFish\obj\Debug\GoFish.Form1.resources
 C:\Users\Denis\OneDrive\Programming\Headfirst C sharp\Ch8\GoFish\GoFish\obj\Debug\GoFish.Properties.Resources.resources
 C:\Users\Denis\OneDrive\Programming\Headfirst C sharp\Ch8\GoFish\GoFish\obj\Debug\GoFish.csproj.GenerateResource.Cache
+C:\Users\denis\Documents\Visual Studio 2013\Projects\GoFish\GoFish\bin\Debug\GoFish.exe.config
