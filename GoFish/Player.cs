@@ -17,6 +17,12 @@ namespace GoFish
 
         public Player(String name, Random random, TextBox textBoxOnForm)
         {
+            this.name = name;
+            this.random = random;
+            this.textBoxOnForm = textBoxOnForm;
+            this.cards = new Deck();
+
+            this.textBoxOnForm.Text = this.name + " has just joined the game" + Environment.NewLine;
             // initialize 4 private fields, then add a line to the textBox control
             // on the form that says "Joe has just joined the game"- but use the name in
             // the private field, and don't forget to add a line break at the end of every
@@ -26,6 +32,7 @@ namespace GoFish
         public Values GetRandomValues()
         {
             // get a random value - value has to be in the deck
+
         }
 
         public Deck DoYouHaveAny(Values value)
